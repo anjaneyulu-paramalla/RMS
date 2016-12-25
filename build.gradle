@@ -31,4 +31,4 @@ dependencies {
 }
 */
 apply plugin: 'java'
-apply plugin: 'web'
+apply plugin: 'war'
