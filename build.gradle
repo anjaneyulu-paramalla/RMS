@@ -32,3 +32,15 @@ dependencies {
 */
 apply plugin: 'java'
 apply plugin: 'war'
+apply plugin: "jacoco"
+
+jacoco {
+    toolVersion = "0.7.8"
+}
+test {
+    jacoco {
+        append = false
+        destinationFile = file("$buildDir/jacoco/jacocoTest.exec")
+        classDumpFile = file("$buildDir/jacoco/classpathdumps")
+    }
+}

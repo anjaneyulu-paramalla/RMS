@@ -1,7 +1,11 @@
 language: java
 jdk:
-  - openjdk7
-  - oraclejdk7
-  - oraclejdk8
+- openjdk7
+- oraclejdk7
+- oraclejdk8
 before_install:
- - chmod +x gradlew
+- chmod +x gradlew
+notifications:
+  hipchat:
+    rooms:
+      secure: KHiOsQTWK1HBG0sxYU7sXbwuUysYes2jX7arVfA5bSVTrAnq1zdarPfWPiXMSTszsh9JBJNwtGvvl+w2h4WiZHarT73RU/xEr4cuCN9pF7+P58cHhhV9Fe5dDuP4Cd+jdLv6DYfJL4VgCotMGp5MuCWRCXhUuHCqiPOL9/lfw4oJoxexxMymmMRax5GyTjBe31O4A2kAT7WnvQOMvscvC7aFBY2n4Vsg/cSBNEnECnQE/VSEr3rD4Boj35ceoFulcImcsB+bQjQdet/7JtvbEWk75dWe8K4MALb0lc4gYO0TvHpSTqGQHzEghNt/Yq0wd7c+jKhrn9xo9ffRcSBSPCGcrq4H/Lf9d+Eb8yJVMfGeSsRs6AK09Fz6o3MN7J4b56a3eOFWvFRqWboHqN3VdvxvOq03vGadJsoFP9N9yf7BLWFODnaAmUC2DCWjVTdkq2HFrnnOUa/1wMNS8f0UzWhJRCIxo8IiKo2XW1iAsxrFbDWKFXuo7PAg/v9ekcT7w9idoBL4HDHjt5jff6O1c0vH6pHRJEiSKq6CajovMa7dK6DeK87B13Sn62zEdhMXlkRgEqm3Fk+7mNwoxP0cSqTPzx/db4dQcq08h0fIiDgXKRMw2bMkMdvxJMgKPnWc+JdnGp5VRIj3xMX36J13VOQbXIz7jZRPCCMKCy7lH9s=
